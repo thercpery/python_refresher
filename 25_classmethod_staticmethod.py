@@ -22,7 +22,7 @@ ClassTest.static_method() # @staticmethod is a separate function inside a classs
 
 # why is @classmethod used?
 class Book:
-    TYPES = ("hardcover", "paperbook") # you can also put variables and this becomes class properties
+    TYPES = ("hardcover", "paperback") # you can also put variables and this becomes class properties
 
     def __init__(self, name, book_type, weight):
         self.name = name
